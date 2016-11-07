@@ -5,11 +5,13 @@ public class Fibanocci {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//Checking
+		//Initializing
 		int a=0, b=1, c, i;
 		
-		System.out.println(a+" "+b);
+		//Printing a & b
+		System.out.println(a+","+b);
 		
+		//looping
 		for(i=2; i<=10; i++)
 		{
 			c=a+b;
