@@ -5,7 +5,7 @@ public class Fibanocci {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
+		//Checking
 		int a=0, b=1, c, i;
 		
 		System.out.println(a+" "+b);
