@@ -12,14 +12,19 @@ public class Factorial {
 		Scanner s= new Scanner(System.in); //scanner class to get the input runtime
 		System.out.println("Enter the number: ");
 		number=s.nextInt();
-				
-		for (i=1; i<=number; i++) 
+		
+		if(number<=0)
 		{
-			factorial=factorial*i;
+			System.out.println("Enter a valid number");
+		}else{
+			
+			for (i=1; i<=number; i++) 
+			{
+				factorial=factorial*i;
+			}
+		
+			System.out.println("the factorial is: "+factorial);			
 		}
-		
-		System.out.println("the factorial is: "+factorial);			
-		
 	}
 
 }
